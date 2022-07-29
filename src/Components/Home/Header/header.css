@@ -1,0 +1,86 @@
+header {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+    padding-top: 3rem;
+    overflow: hidden;
+}
+
+.header_container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ================= CTA ================== */
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}  
+
+/* ================= HEADER SOCIAL ================== */
+.header_socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6 rem;
+    position: absolute;
+    left: 15px; 
+    bottom: 3.3rem;
+}
+
+.header_socials::after{
+    content: "";
+    width: 1px;
+    height: 1.6rem;
+    background: var(--color-primary);
+    margin-top: 0.4rem;
+}
+
+/* ================= ME ================== */
+.me{
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 33rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+
+.scroll-down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 200;
+}
+
+
+/* ============= Media Queries (medium devices) ============= */
+@media screen and (max-width: 1024px){
+   header {
+    height: 68vh;
+    margin-left: 90px;
+}
+    }
+    
+    /* ============= Media Queries (small devices) ============= */
+    @media screen and (max-width: 600px){
+        /* .header_container{
+            margin: 0 0 0 20px;
+           } */
+        header{
+            height: 100vh;
+            margin: 0 auto !important;
+            /* margin-left: 6rem !important; */
+        }
+
+        .header_socials, .scroll-down{
+            display: none;
+        }
+    }
