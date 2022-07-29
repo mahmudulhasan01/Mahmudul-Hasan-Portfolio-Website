@@ -81,11 +81,19 @@
 @media screen and (max-width: 1024px){
     #about{
         display: block;
-        max-width: 80%;
+        max-width: 500px;
         margin: 0 auto !important;
         margin-top: 3rem !important;
-        margin-left: 8.5rem !important;
+        /* margin-left: 8.5rem !important; */
     }
+
+    
+    /* 
+    height: 68vh;
+    padding-top: 3rem;
+    overflow: hidden;
+     */
+
    .about_container{
     grid-template-columns: 1fr;
     gap: 0;
@@ -102,12 +110,19 @@
      
 /* ============= Media Queries (small devices) ============= */
      @media screen and (max-width: 600px){
-        /* #about{
-            display: block;
-            width: 95% !important;
-            margin: 0 auto !important;
-            margin-top: 4rem !important;
-             margin-left: 90px;
-        } */
+        .about me {
+            width: 65%; 
+            margin: 0 auto 3rem;
+        }
+            .about_cards {
+            grid-template-columns: 1fr 1fr; 
+            gap: lrem;
+        }
+            about_content { 
+                text-align: center;
+            }
+            .about_content p {
+            margin: 1.5rem ;
+        }
 
      }
