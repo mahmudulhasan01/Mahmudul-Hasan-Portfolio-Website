@@ -43,14 +43,16 @@ header {
 .me{
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 33rem;
+    height: 24rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 4rem;
+    margin-top: 1rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 1rem 1.5rem 1.5rem 1.5rem;
 }
+
+
 
 .scroll-down {
     position: absolute;
@@ -67,7 +69,7 @@ header {
 header {
     max-width: 800px;
     margin: 0 auto !important;
-    height: 68vh;
+    height: 53vh;
     padding-top: 3rem;
     overflow: hidden;
 }
@@ -79,7 +81,7 @@ header {
             margin: 0 0 0 20px;
            } */
         header{
-            height: 100vh;
+            height: 74.5vh;
             margin: 0 auto !important;
         }
 
