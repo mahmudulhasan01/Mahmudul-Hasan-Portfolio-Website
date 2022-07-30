@@ -34,22 +34,22 @@ const Contact = () => {
         <div className="contact_options">
           <article className="contact_option">
             <MdOutlineEmail className="contact_option-icon" /> <h4>Email</h4>
-            <h5>dummyegator@gmail.com</h5>
-            <a href="mailto:dummyegator@gmail.com" target="_blank">
+            <h5>web.mahmudulhasan@gmail.com</h5>
+            <a href="mailto:web.mahmudulhasan@gmail.com" target="_blank">
               Send a message
             </a>
           </article>
           <article className="contact_option">
             <MdOutlineEmail /> <h4>Email</h4>
-            <h5>dummyegator@gmail.com</h5>
-            <a href="mailto:dummyegator@gmail.com" target="_blank">
+            <h5>web.mahmudulhasan@gmail.com</h5>
+            <a href="mailto:web.mahmudulhasan@gmail.com" target="_blank">
               Send a message
             </a>
           </article>
           <article className="contact_option">
             <MdOutlineEmail /> <h4>Email</h4>
-            <h5>dummyegator@gmail.com</h5>
-            <a href="mailto:dummyegator@gmail.com" target="_blank">
+            <h5>web.mahmudulhasan@gmail.com</h5>
+            <a href="mailto:web.mahmudulhasan@gmail.com" target="_blank">
               Send a message
             </a>
           </article>
